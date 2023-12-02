@@ -1,7 +1,7 @@
 async function getData() {
     const res = await fetch("https://agency.teamrabbil.com/api/FeaturedProject")
     if (!res.ok) {
-        throw new Error("StatList Calling Fail");
+        throw new Error("FeaturedProjects Calling Fail");
     }
     return res.json();
 }
