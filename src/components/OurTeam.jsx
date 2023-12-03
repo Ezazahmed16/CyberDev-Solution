@@ -11,7 +11,7 @@ const OurTeam = async () => {
     const data = await getData();
     return (
         <div className="">
-            <div style={{ backgroundColor: '#D7F5DC' }} className="">
+            <div style={{ backgroundColor: '#F8F9FC' }} className="">
                 <div className="p-20 max-w-7xl mx-auto ">
                     <h1 className="text-5xl" >Team</h1>
                     <div className="flex items-center mt-5">

@@ -18,10 +18,10 @@ const HeroSection = async () => {
                         <button style={{ background: '#F55F1D', color: '#fff' }} className="btn mt-10">Subscribe</button>
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-5 gap-3 justify-center items-center">
-                            <img className="h-full md:h-72 w-full md:w-full col-span-1 md:col-span-3" src={data['image1']} alt="" srcSet="" />
-                            <img className="w-full md:w-56 h-full md:h-72 col-span-2" src={data['image2']} alt="" srcSet="" />
-                            <img className="w-full md:h-56 h-full md:w-56 col-span-2" src={data['image3']} alt="" srcSet="" />
-                            <img className="w-full md:w-96 h-full md:h-56 col-span-1 md:col-span-3" src={data['image4']} alt="" srcSet="" />
+                            <img className="h-full md:h-72 w-full md:w-full col-span-1 md:col-span-3 rounded-3xl" src={data['image1']} alt="" srcSet="" />
+                            <img className="w-full md:w-56 h-full md:h-72 col-span-2 rounded-2xl" src={data['image2']} alt="" srcSet="" />
+                            <img className="w-full md:h-56 h-full md:w-56 col-span-2 rounded-2xl" src={data['image3']} alt="" srcSet="" />
+                            <img className="w-full md:w-96 h-full md:h-56 col-span-1 md:col-span-3 rounded-3xl" src={data['image4']} alt="" srcSet="" />
                     </div>
                 </div>
             </section>

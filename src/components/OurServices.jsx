@@ -13,7 +13,7 @@ const OurServices = async () => {
     const data = await getData();
     return (
         <div>
-            <div style={{ backgroundColor: '#D7F5DC' }} className="">
+            <div style={{ backgroundColor: '#F8F9FC' }} className="">
                 <div className="p-20 max-w-7xl mx-auto ">
                     <h1 className="text-5xl" >Our Services</h1>
                     <div className="flex items-center mt-5">
@@ -37,18 +37,18 @@ const OurServices = async () => {
                         <div className="w-full">
                             <div className="mb-4 flex flex-wrap items-end">
                                 <div className="mb-4 lg:mb-0 w-full lg:w-2/3 px-3">
-                                    <img className="w-full h-32 lg:h-48 object-cover rounded" src={data[0].image1} />
+                                    <img className="w-full h-48 lg:h-48 object-cover rounded" src={data[0].image1} />
                                 </div>
                                 <div className="w-full lg:w-1/3 px-3">
-                                    <img className="w-full h-32 object-cover rounded" src={data[0].image2} alt="" />
+                                    <img className="w-full h-48 object-cover rounded" src={data[0].image2} alt="" />
                                 </div>
                             </div>
                             <div className="flex flex-wrap items-start">
                                 <div className="mb-4 lg:mb-0 w-full lg:w-1/3 px-3">
-                                    <img className="w-full h-32 object-cover rounded" src={data[0].image3} alt="" />
+                                    <img className="w-full h-48 object-cover rounded" src={data[0].image3} alt="" />
                                 </div>
                                 <div className="w-full lg:w-2/3 px-3">
-                                    <img className="w-full h-32 lg:h-48 object-cover rounded" src={data[0].image4} alt="" />
+                                    <img className="w-full h-48 lg:h-48 object-cover rounded" src={data[0].image4} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -61,18 +61,18 @@ const OurServices = async () => {
                         <div className="w-full">
                             <div className="mb-4 flex flex-wrap items-end">
                                 <div className="mb-4 lg:mb-0 w-full lg:w-2/3 px-3">
-                                    <img className="w-full h-32 lg:h-48 object-cover rounded" src={data[1].image1} />
+                                    <img className="w-full h-48 lg:h-48 object-cover rounded" src={data[1].image1} />
                                 </div>
                                 <div className="w-full lg:w-1/3 px-3">
-                                    <img className="w-full h-32 object-cover rounded" src={data[1].image2} alt="" />
+                                    <img className="w-full h-48 object-cover rounded" src={data[1].image2} alt="" />
                                 </div>
                             </div>
                             <div className="flex flex-wrap items-start">
                                 <div className="mb-4 lg:mb-0 w-full lg:w-1/3 px-3">
-                                    <img className="w-full h-32 object-cover rounded" src={data[1].image3} alt="" />
+                                    <img className="w-full h-48 object-cover rounded" src={data[1].image3} alt="" />
                                 </div>
                                 <div className="w-full lg:w-2/3 px-3">
-                                    <img className="w-full h-32 lg:h-48 object-cover rounded" src={data[1].image4} alt="" />
+                                    <img className="w-full h-48 lg:h-48 object-cover rounded" src={data[1].image4} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -85,18 +85,18 @@ const OurServices = async () => {
                         <div className="w-full">
                             <div className="mb-4 flex flex-wrap items-end">
                                 <div className="mb-4 lg:mb-0 w-full lg:w-2/3 px-3">
-                                    <img className="w-full h-32 lg:h-48 object-cover rounded" src={data[2].image1} />
+                                    <img className="w-full h-48 lg:h-48 object-cover rounded" src={data[2].image1} />
                                 </div>
                                 <div className="w-full lg:w-1/3 px-3">
-                                    <img className="w-full h-32 object-cover rounded" src={data[2].image2} alt="" />
+                                    <img className="w-full h-48 object-cover rounded" src={data[2].image2} alt="" />
                                 </div>
                             </div>
                             <div className="flex flex-wrap items-start">
                                 <div className="mb-4 lg:mb-0 w-full lg:w-1/3 px-3">
-                                    <img className="w-full h-32 object-cover rounded" src={data[2].image3} alt="" />
+                                    <img className="w-full h-48 object-cover rounded" src={data[2].image3} alt="" />
                                 </div>
                                 <div className="w-full lg:w-2/3 px-3">
-                                    <img className="w-full h-32 lg:h-48 object-cover rounded" src={data[2].image4} alt="" />
+                                    <img className="w-full h-48 lg:h-48 object-cover rounded" src={data[2].image4} alt="" />
                                 </div>
                             </div>
                         </div>
@@ -109,18 +109,18 @@ const OurServices = async () => {
                         <div className="w-full">
                             <div className="mb-4 flex flex-wrap items-end">
                                 <div className="mb-4 lg:mb-0 w-full lg:w-2/3 px-3">
-                                    <img className="w-full h-32 lg:h-48 object-cover rounded" src={data[3].image1} />
+                                    <img className="w-full h-48 lg:h-48 object-cover rounded" src={data[3].image1} />
                                 </div>
                                 <div className="w-full lg:w-1/3 px-3">
-                                    <img className="w-full h-32 object-cover rounded" src={data[3].image2} alt="" />
+                                    <img className="w-full h-48 object-cover rounded" src={data[3].image2} alt="" />
                                 </div>
                             </div>
                             <div className="flex flex-wrap items-start">
                                 <div className="mb-4 lg:mb-0 w-full lg:w-1/3 px-3">
-                                    <img className="w-full h-32 object-cover rounded" src={data[3].image3} alt="" />
+                                    <img className="w-full h-48 object-cover rounded" src={data[3].image3} alt="" />
                                 </div>
                                 <div className="w-full lg:w-2/3 px-3">
-                                    <img className="w-full h-32 lg:h-48 object-cover rounded" src={data[3].image4} alt="" />
+                                    <img className="w-full h-48 lg:h-48 object-cover rounded" src={data[3].image4} alt="" />
                                 </div>
                             </div>
                         </div>
