@@ -10,7 +10,7 @@ const HeroSection = async () => {
     const data = await getData();
     return (
         <div className="relative" style={{ backgroundColor: '#D7F5DC' }}>
-            <section className="hero is-fullheight max-w-7xl mx-auto pt-10">
+            <section className="hero is-fullheight max-w-7xl mx-auto pt-20">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-2 items-center justify-center p-5">
                     <div className="w-4/5">
                         <h1 className='text-5xl'>Increase Your Customers Loyalty and Satisfaction</h1>

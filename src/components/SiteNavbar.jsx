@@ -3,7 +3,7 @@ import React from 'react'
 
 const SiteNavbar = () => {
     return (
-        <div>
+        <div className='absolute z-40 w-full '>
             <div className="navbar max-w-7xl mx-auto">
                 <div className="navbar-start ">
                     <div className="dropdown">

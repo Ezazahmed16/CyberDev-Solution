@@ -4,7 +4,7 @@ import Subscribe from '@/components/Subscribe'
 
 const page = () => {
   return (
-    <div>
+    <div className='relative'>
       <OurTeam />
       <Subscribe />
     </div>

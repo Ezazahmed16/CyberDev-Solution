@@ -1,3 +1,5 @@
+import { FaAngleRight } from "react-icons/fa";
+
 async function getData() {
     const res = await fetch(process.env.BASE_URL + '/api/AllProject')
     if (!res.ok) {
@@ -10,6 +12,14 @@ const AllProjects = async () => {
     const data = await getData();
     return (
         <div>
+            <div style={{ backgroundColor: '#D7F5DC' }} className="">
+                <div className="p-20 max-w-7xl mx-auto ">
+                    <h1 className="text-5xl" >All Project</h1>
+                    <div className="flex items-center mt-5">
+                        <p> Home </p> <FaAngleRight /> <p style={{ color: '#20B15A' }}>All Project</p>
+                    </div>
+                </div>
+            </div>
             <section className="max-w-7xl mx-auto min-h-screen">
                 <div className="md:w-2/5 px-10 pt-10 pb-5">
                     <h3 style={{ color: '#20B15A' }} className='text-2xl mb-5'>All Project</h3>

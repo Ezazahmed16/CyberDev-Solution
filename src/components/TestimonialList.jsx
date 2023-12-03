@@ -1,6 +1,8 @@
-async function getData(){
-    const res = await fetch(process.env.BASE_URL +'/api/TestimonialList')
-    if(!res.ok){
+import { FaAngleRight } from "react-icons/fa";
+
+async function getData() {
+    const res = await fetch(process.env.BASE_URL + '/api/TestimonialList')
+    if (!res.ok) {
         throw new Error('Could not fetch data');
     }
     return res.json()
@@ -10,6 +12,14 @@ const TestimonialList = async () => {
     const data = await getData();
     return (
         <div>
+            <div style={{ backgroundColor: '#D7F5DC' }} className="">
+                <div className="p-20 max-w-7xl mx-auto ">
+                    <h1 className="text-5xl" >Testimonial List</h1>
+                    <div className="flex items-center mt-5">
+                        <p> Home </p> <FaAngleRight /> <p style={{ color: '#20B15A' }}>Testimonial List</p>
+                    </div>
+                </div>
+            </div>
             <section className="max-w-7xl mx-auto min-h-screen">
                 <div className="md:w-2/5 px-10 pt-10 pb-5">
                     <h3 style={{ color: '#20B15A' }} className='text-2xl mb-5'>Testimonial List</h3>

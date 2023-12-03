@@ -1,5 +1,6 @@
+import { FaAngleRight } from "react-icons/fa";
 async function getData() {
-    const response = await fetch(process.env.BASE_URL+'/api/TeamList');
+    const response = await fetch(process.env.BASE_URL + '/api/TeamList');
     if (!response.ok) {
         throw new Error("OurTeam Calling Fail");
     }
@@ -9,8 +10,16 @@ async function getData() {
 const OurTeam = async () => {
     const data = await getData();
     return (
-        <div>
-            <section className="max-w-7xl mx-auto min-h-screen">
+        <div className="">
+            <div style={{ backgroundColor: '#D7F5DC' }} className="">
+                <div className="p-20 max-w-7xl mx-auto ">
+                    <h1 className="text-5xl" >Team</h1>
+                    <div className="flex items-center mt-5">
+                        <p> Home </p> <FaAngleRight /> <p style={{ color: '#20B15A' }}>Team</p>
+                    </div>
+                </div>
+            </div>
+            <section className="min-h-screen max-w-7xl mx-auto" >
                 <div className="md:w-2/5 px-10 pt-10 pb-5">
                     <h3 style={{ color: '#20B15A' }} className='text-2xl mb-5'>Our Team Member</h3>
                     <h1 className='text-4xl'>Check our awesome team members</h1>
