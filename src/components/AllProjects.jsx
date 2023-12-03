@@ -8,7 +8,6 @@ async function getData() {
 
 const AllProjects = async () => {
     const data = await getData();
-    console.log(data)
     return (
         <div>
             <section className="max-w-7xl mx-auto min-h-screen">
