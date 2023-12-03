@@ -1,3 +1,4 @@
+import React from 'react';
 import OurTeam from '../../components/OurTeam'
 import Subscribe from '@/components/Subscribe'
 
