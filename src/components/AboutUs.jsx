@@ -11,7 +11,7 @@ const AboutUs = async () => {
                     </div>
                     <div className="">
                         <div className="block justify-center items-center m-auto">
-                            <video width="600" height="340" controls preload>
+                            <video width="600" height="340" controls preload="true">
                                 <source src="/Video/Elevate Your Business with CyberdevBD _  2024-06-06.mp4" type="video/mp4" />
                                 <track
                                     src="/Video/Elevate Your Business with CyberdevBD _  2024-06-06.vtt"
